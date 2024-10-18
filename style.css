@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+.heart{
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+i{
+    color: #000;
+    font-size: 200px;
+    animation: beat 0.9s infinite;
+    text-shadow:
+        0 0 5px red,
+        0 0 80px red,
+        0 0 200px red
+    ;
+}
+@keyframes beat{
+    0%{
+        transform: scale(1.15);
+    }
+    20%{
+        transform: scale(1.38);
+    }
+    40%{
+        transform: scale(2);
+    }
+}
+h2 {
+    color: white;
+    right:42%;
+    font-size: 70px;
+    position: absolute;
+}
